@@ -25,7 +25,7 @@ function preload() {
 }
 
 function setup() {
-  const canvas = createCanvas(711, 400);
+  const canvas = createCanvas(windowHeight, windowWidth);
   engine = Engine.create();
   world = engine.world;
   ground = new Ground(width / 2, height - 10, width, 20);
